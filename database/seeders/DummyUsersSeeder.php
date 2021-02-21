@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Foundation\Auth\User;
+use DB;
 
 class DummyUsersSeeder extends Seeder
 {
