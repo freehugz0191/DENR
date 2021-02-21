@@ -19,6 +19,7 @@ class CreateRequestRelDocsTable extends Migration
             $table->string('tran_id');
             $table->string('status_id');
             $table->string('requser_id');
+            $table->string('remarks');
             $table->string('appuser_id')->nullable();
             $table->timestamps();
         });
