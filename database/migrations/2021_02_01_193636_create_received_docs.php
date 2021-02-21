@@ -16,7 +16,7 @@ class CreateReceivedDocs extends Migration
         Schema::create('received_docs', function (Blueprint $table) {
             $table->id();
             $table->string('doc_id');
-            $table->string('tran_id')->nullable();
+            $table->string('tran_id');
             $table->string('status');
             $table->string('dept_id');
             $table->string('user_id');
