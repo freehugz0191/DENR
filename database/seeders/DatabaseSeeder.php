@@ -15,6 +15,26 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-       
+        $userData = [
+            [
+               'name'=>'Admin',
+               'email'=>'admin@test.com',
+               'username'=>'admin',
+                'is_admin'=>'1',
+               'password'=> bcrypt('12345678'),
+            ],
+            [
+               'name'=>'Regular User',
+               'email'=>'reguser@test.com',
+               'username'=>'reguser',
+                'is_admin'=>'0',
+               'password'=> bcrypt('12345678'),
+            ],
+        ];
+  
+        foreach ($userData as $key => $val) {
+            User::create($val);
+        }
+    
     }
 }
