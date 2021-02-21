@@ -150,27 +150,27 @@ class DummyUsersSeeder extends Seeder
         DB::table('trandesc')->insert([
             'tran_desc' => 'Permit to import Chainsaw',
             'section_id' => '3',
-            'file' => '',
+            'guide' => '',
         ],
         [
             'tran_desc' => 'Issuance of Certificate of Tree Plantation Ownership',
             'section_id' => '3',
-            'file' => '',
+            'guide' => '',
         ],
         [
             'tran_desc' => 'Temporary Release of Conveyance',
             'section_id' => '2',
-            'file' => '',
+            'guide' => '',
         ],
         [
             'tran_desc' => 'Issuance of CBFMA final',
             'section_id' => '1',
-            'file' => '',
+            'guide' => '',
         ],
         [
             'tran_desc' => 'Issuance of FLAgT',
             'section_id' => '1',
-            'file' => '',
+            'guide' => '',
         ],
         );
 
