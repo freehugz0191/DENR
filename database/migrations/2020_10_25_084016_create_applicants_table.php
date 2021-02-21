@@ -20,6 +20,8 @@ class CreateApplicantsTable extends Migration
             $table->string('contact');
             $table->string('email');
             $table->string('address');
+            $table->string('gender');
+            $table->date('date_birth');
             $table->timestamps();
         });
     }
