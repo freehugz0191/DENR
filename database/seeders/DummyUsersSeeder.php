@@ -165,12 +165,12 @@ class DummyUsersSeeder extends Seeder
         [
             'tran_desc' => 'Issuance of CBFMA final',
             'section_id' => '1',
-            'file' => '1612363841.pdf',
+            'file' => '',
         ],
         [
             'tran_desc' => 'Issuance of FLAgT',
             'section_id' => '1',
-            'file' => '1612363915.pdf',
+            'file' => '',
         ],
         );
 
