@@ -31,7 +31,7 @@ class HomeController extends Controller
         $history = TranHistory::join('users', 'tran_histories.user_id', '=', 'users.id')
                                 ->select('tran_histories.*', 'users.name')
                                 ->orderBy('id', 'desc')
-                                ->paginate(5);
+                                ->get();
         return view('home')
                 ->with('approve', $approve)
                 ->with('reject', $reject)
